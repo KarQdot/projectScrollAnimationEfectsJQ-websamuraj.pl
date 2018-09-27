@@ -99,15 +99,13 @@ header {
 
 .quotes article {
     margin-bottom: 60px;
+    transform: scale(0);
+    transition: .4s linear;
 }
 
 .quotes img {
     display: block;
     width: 100%;
-}
-
-.quotes article {
-    transform: scale(0);
 }
 
 .quotes article.active {
